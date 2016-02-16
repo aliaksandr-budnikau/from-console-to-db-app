@@ -61,7 +61,7 @@ public class Main {
             if (rowCount == 0) {
                 throw new RuntimeException("INSERT ERROR");
             }
-        } catch (SQLException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
